@@ -5,8 +5,8 @@ import json
 from telethon import TelegramClient, events
 
 # 🔑 CREDENCIAIS TELEGRAM
-api_id = x
-api_hash = 'x'
+api_id = 30577430
+api_hash = 'f67713bb5d0695b0df1ddde9fce061f2'
 
 # 🤖 TOKEN DO BOT (coloque no Railway como variável de ambiente)
 BOT_TOKEN = os.getenv("BOT_TOKEN")
