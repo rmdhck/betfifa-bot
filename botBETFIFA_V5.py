@@ -97,8 +97,10 @@ def montar_msg(texto, origem):
         resultado = "❌"
 
     return f"""🏃🏽‍♂️‍➡️⚽️ <b>ENTRADA BETFIFA</b> ⚽️
+
 🎮 <b>{jogo}</b>
 📈 <i>{mercado}</i>
+
 🏆 RESULTADO: {resultado}
 """
 
