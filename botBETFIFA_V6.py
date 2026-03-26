@@ -261,7 +261,8 @@ def get_botoes():
         "inline_keyboard": [
             [{"text": "📲 Instagram", "url": "https://instagram.com/seuusuario"},
              {"text": "📲 Twitter", "url": "https://twitter.com/seuusuario"}],
-            [{"text": "💰 Acesse o VIP", "url": "https://t.me/seugrupovip"}]
+            [{"text": "💰 Acesse o VIP", "url": "https://t.me/seugrupovip"}],
+            [{"text": "🖥 Plataforma BETFIFA", "url": "https://t.me/seugrupovip"}]
         ]
     }
 
