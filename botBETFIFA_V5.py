@@ -96,10 +96,10 @@ def montar_msg(texto, origem):
     elif "Red" in texto or "❌" in texto:
         resultado = "❌"
 
-    return f"""Entrada BETFIFA ⚽️⚽️⚽️
-🎮 {jogo}
-📈 {mercado}
-🏆 Resultado tip {resultado}
+    return f"""🏃🏽‍♂️‍➡️⚽️ <b>ENTRADA BETFIFA</b> ⚽️
+🎮 <b>{jogo}</b>
+📈 <i>{mercado}</i>
+🏆 RESULTADO: {resultado}
 """
 
 
@@ -145,6 +145,7 @@ async def new_msg(event):
         r = requests.post(url, json={
             "chat_id": DESTINO,
             "text": msg,
+            "parse_mode": "HTML",
             "reply_markup": get_botoes()
         }).json()
 
@@ -190,6 +191,7 @@ async def edit_msg(event):
             "chat_id": DESTINO,
             "message_id": msg_id,
             "text": msg,
+            "parse_mode": "HTML",
             "reply_markup": get_botoes()
         })
 
